@@ -1,5 +1,5 @@
 //Yanchi Song
-public class Cowsay{
+public class Cowsay{//coment
     public static void main (String[] args){
         Cow[] cow = HeiferGenerator.getCows();
         if(args[0].equals("-l")){
@@ -19,7 +19,7 @@ public class Cowsay{
             else if(args[1].equals("kitteh")){
                 for(int i = 2; i < args.length; i++){
                     System.out.print(args[i] + " ");
-                }
+                }//coment 
                 System.out.println("\n" + cow[1].getImage());
             }//for "-n" kittel with words
             else if(args[1].equals("dragon")){
